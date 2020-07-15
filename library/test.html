@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="serpent-drawing-13.jpg" />
+    <title>Test</title>
+    <!-- <link rel="stylesheet" type="text/css"  href='style.css' /> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="javascript/baitap.js"></script>
+    
+
+</head>
+
+<body>
+    <div id="loader"></div>
+    <div id="content1">
+        <header>
+            <div class="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3"><a href="#" class="web-url">www.readbook.com</a></div>
+                        <div class="col-md-6">
+                            <h5 style="text-align: center   ;">To day a leader, tomorrow a leader</h5>
+                        </div>
+                        <div class="col-md-3">
+                            <div id="clock">Loading...</div>
+                            <script type="text/javascript"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-menu">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="cv-xinviec.html"><img src="images/logo.png" alt="logo"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="navbar-item active">
+                                    <a href="cv-xinviec.html" class="nav-link">Home</a>
+                                </li>
+                                <li class="navbar-item">
+                                    <a href="theloai.html" class="nav-link">Thể loại</a>
+                                </li>
+                                <li class="navbar-item">
+                                    <a href="about.html" class="nav-link">Thông tin trang</a>
+                                </li>
+                                <li class="navbar-item">
+                                    <a href="faq.html" class="nav-link">Bình luận</a>
+                                </li>
+                                <li class="navbar-item">
+                                    <a href="manager.html" class="nav-link">Login</a>
+                                </li>
+                            </ul>
+
+                            <form class="form-inline my-2 my-lg-0 "></form>
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search here..."
+                                aria-label="Search" id="search-input">
+                            <span class="fa fa-search"></span>
+                            <details>
+                                <ul class="he" id='search-list' style="visibility: hidden;">
+                                    <li class="app"><a href="loginform.html">Romantic</a></li>
+                                    <li class="app"><a href="loginform.html">Romantic</a></li>
+                                    <li class="app"><a href="loginform.html">Romantic</a></li>
+                                    <li class="app"><a href="loginform.html">Romantic</a></li>
+                                    <li class="app"><a href="loginform.html">Romantic</a></li>
+                                    <li class="app"><a href="loginform.html">Romantic</a></li>
+                                    <li class="app"><a href="loginform.html">Romantic</a></li>
+                                    <li class="app"><a href="loginform.html">Romantic</a></li>
+                                    <li class="app"><a href="loginform.html">Romantic</a></li>
+                                    <li class="app"><a href="loginform.html">Romantic</a></li>
+
+                                </ul>
+                            </details>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="slider">
+            <div class="container">
+                <div id="owl-demo" class="owl-carousel owl-theme">
+                    <div class="slideshow-container">
+                        <h2>Freetus.net hướng dẫn tạo slideShow đơn giản</h2>
+                        <div class="mySlides fade">
+                          <img src="https://freetuts.net/upload/tut_post/images/2017/07/30/964/slide-1.jpg" style="width:100%">
+                          <div class="text">Nội dung caption của slide đầu tiên!</div>
+                        </div>
+                
+                        <div class="mySlides fade">
+                          <img src="https://freetuts.net/upload/tut_post/images/2017/07/30/964/slide-2.jpg" style="width:100%">
+                          <div class="text">Nội dung caption của slide thứ 2!</div>
+                        </div>
+                
+                        <div class="mySlides fade">
+                          <img src="https://freetuts.net/upload/tut_post/images/2017/07/30/964/slide-3.jpg" style="width:100%">
+                          <div class="text">Nội dung caption của slide thứ 3!</div>
+                        </div>
+                      </div>
+                      <br>
+                
+                      <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(0)"></span> 
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                      </div>  
+                </div>
+            </div>
+            <style>
+                * {
+                  box-sizing:border-box
+                }
+                h2 {
+                  text-align: center;
+                }
+                /* Slideshow container */
+                .slideshow-container {
+                  max-width: 500px;
+                  position: relative;
+                  margin: auto;
+                }
+                /* Ẩn các slider */
+                .mySlides {
+                    display: none;
+                }
+                /* Định dạng nội dung Caption */
+                .text {
+                  color: #f2f2f2;
+                  font-size: 15px;
+                  padding: 8px 12px;
+                  position: absolute;
+                  bottom: 8px;
+                  width: 100%;
+                  text-align: center;
+                }
+      
+                /* định dạng các chấm chuyển đổi các slide */
+                .dot {
+                  cursor:pointer;
+                  height: 13px;
+                  width: 13px;
+                  margin: 0 2px;
+                  background-color: #bbb;
+                  border-radius: 50%;
+                  display: inline-block;
+                  transition: background-color 0.6s ease;
+                }
+                /* khi được hover, active đổi màu nền */
+                .active, .dot:hover {
+                  background-color: #717171;
+                }
+      
+                /* Thêm hiệu ứng khi chuyển đổi các slide */
+                .fade {
+                  -webkit-animation-name: fade;
+                  -webkit-animation-duration: 3s;
+                  animation-name: fade;
+                  animation-duration: 3s;
+                }
+      
+                @-webkit-keyframes fade {
+                  from {opacity: .4} 
+                  to {opacity: 1}
+                }
+      
+                @keyframes fade {
+                  from {opacity: .4} 
+                  to {opacity: 1}
+                }
+              </style>
+              <script>
+                //khai báo biến slideIndex đại diện cho slide hiện tại
+                var slideIndex;
+                // KHai bào hàm hiển thị slide
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                       slides[i].style.display = "none";  
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+          
+                    slides[slideIndex].style.display = "block";  
+                    dots[slideIndex].className += " active";
+                    //chuyển đến slide tiếp theo
+                    slideIndex++;
+                    //nếu đang ở slide cuối cùng thì chuyển về slide đầu
+                    if (slideIndex > slides.length - 1) {
+                      slideIndex = 0
+                    }    
+                    //tự động chuyển đổi slide sau 5s
+                    setTimeout(showSlides, 5000);
+                }
+                //mặc định hiển thị slide đầu tiên 
+                showSlides(slideIndex = 0);
+          
+          
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+              </script>
+           
+        </section>
+        <section class="recomended-sec">
+            <div class="container">
+                <div class="title">
+                    <h2>highly recommendes books</h2>
+                    <hr>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item">
+                            <img src="images/s3.jpg" width="135" height="218" alt="img">
+                            <h3>Điều bật mí</h3>
+                            <a href="#">Read Now</a></h6>
+                            <div class="hover">
+                                <a href="product-single.html">
+                                    <span><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item">
+                            <img src="images/s4.jpg" width="135" height="218" alt="img">
+                            <h3>The vanishing act</h3>
+                            <a href="sach1.html">Read Now</a></h6>
+                            <div class="hover">
+                                <a href="sach1.html">
+                                    <span><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item">
+                            <img src="images/s5.jpg" width="135" height="218" alt="img">
+                            <h3>Yêu trên từng ngón tay</h3>
+                            <a href="#">Read Now</a></h6>
+                            <div class="hover">
+                                <a href="sach2.html">
+                                    <span><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item">
+                            <img src="images/s6.jpg" width="135" height="218" alt="img">
+                            <h3>fire and stars</h3>
+                            <a href="#">Read Now</a></h6>
+                            <div class="hover">
+                                <a href="sach3.html">
+                                    <span><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-sec">
+            <div class="about-img">
+                <figure style="background:url(./images/about-img.jpg)no-repeat;"></figure>
+            </div>
+            <div class="about-content">
+                <h2>About bookstore,</h2>
+                <p>Chúng tôi đảm bảo sách của chùng tôi là hàng thật 100% </p>
+                <p>Nếu có sự sai sót chúng tôi xin đến bù với giá trị lên đếm 100,000,000 Đ</p>
+                <div class="btn-sec">
+                    <a href="theloai.html" class="btn yellow">read book</a>
+
+                </div>
+            </div>
+        </section>
+        <section class="recent-book-sec">
+            <div class="container">
+                <div class="title">
+                    <h2>ĐỌC NHIỀU NHẤT</h2>
+                    <hr>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 col-sm-4">
+                        <div class="item">
+                            <img src="images/a1.jpg" width="167" height="260" alt="img">
+                            <h3><a href="#">Lấp Lánh</a></h3>
+                            <a href="sach4.html">Read Now</a></h6>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4">
+                        <div class="item">
+                            <img src="images/a2.jpg" width="167" height="260" alt="img">
+                            <h3><a href="#">Đằng Sau Bức Tranh</a></h3>
+                            <a href="sach5.html">Read Now</a></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4">
+                        <div class="item">
+                            <img src="images/a3.jpg" width="167" height="260" alt="img">
+                            <h3><a href="#">The Secret Tree</a></h3>
+                            <a href="sach6.html">Read Now</a></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4">
+                        <div class="item">
+                            <img src="images/r4.jpg" width="167" height="260" alt="img">
+                            <h3><a href="#">PS From Paris</a></h3>
+                            <a href="sach7.html">Read Now</a></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4">
+                        <div class="item">
+                            <img src="images/a5.jpg" width="167" height="260" alt="img">
+                            <h3><a href="#">Đủ Nắng Thì Hoa Nở</a></h3>
+                            <a href="sach9.html">Read Now</a></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4">
+                        <div class="item">
+                            <img src="images/a7.jpg" width="167" height="260" alt="img">
+                            <h3><a href="#">Hôm Nay Tôi Thất Tình</a></h3>
+                            <a href="sach10.html">Read Now</a></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4">
+                        <div class="item">
+                            <img src="images/a8.jpg" width="167" height="260" alt="img">
+                            <h3><a href="#">Thời Gian Tươi Đẹp</a></h3>
+                            <a href="sach11.html">Read Now</a></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4">
+                        <div class="item">
+                            <img src="images/a9.jpg" width="167" height="260" alt="img">
+                            <h3><a href="#">Đừng Lãng Phí Những Ngày Đẹp Trời</a></h3>
+                            <a href="sach12.html">Read Now</a></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4">
+                        <div class="item">
+                            <img src="images/a6.jpg" width="167" height="260" alt="img">
+                            <h3><a href="#">Đắc Nhân Tâm</a></h3>
+                            <a href="sach13.html">Read Now</a></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4">
+                        <div class="item">
+                            <img src="images/r5.jpg" width="167" height="260" alt="img">
+                            <h3><a href="#">Trust Me Not</a></h3>
+                            <a href="sach14.html">Read Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-sec">
+                    <a href="#" class="btn gray-btn">view all books</a>
+                </div>
+            </div>
+        </section>
+        <section class="features-sec">
+            <div class="container">
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-book" aria-hidden="true"></i></i></span>
+                        <h3>Sách nguyên bản</h3>
+                        <h5>Sách thật 100%</h5>
+                        <h6>Chung tôi mang đên bạn đọc sách hay <br>và là hàng thật</h6>
+                    </li>
+                    <li>
+                        <span class="icon return"><i class="fa fa-reply-all" aria-hidden="true"></i></span>
+                        <h3>Hãy cùng chia sẻ link</h3>
+                        <h5>Ai cũng có quyền đọc</h5>
+                        <h6>Chia sẻ sách để vì thế giới bớt ngu <br> và người tài có thể đọc</h6>
+                    </li>
+                    <li>
+                        <span class="icon chat"><i class="fa fa-comments" aria-hidden="true"></i></span>
+                        <h3>24/7 SUPPORT</h3>
+                        <h5>Chúng tôi luôn sẵn sàng hỗ trợ bạn</h5>
+                        <h6>Vì sự trải nghiệm của bạn là quan trọng nhất<br>
+                            chúng tôi luôn đồng hành cùng bạn</h6>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="offers-sec" style="background:url(images/offers.jpg)no-repeat;">
+            <div class="cover"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="detail">
+                            <h3>Top 50% OFF on Selected</h3>
+                            <h6>We are now offering some good discount
+                                on selected books go and shop them</h6>
+                            <a href="products.html" class="btn blue-btn">view all books</a>
+                            <span class="icon-point percentage">
+                                <img src="images/precentagae.png" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="detail">
+                            <h3>Shop $ 500 Above and Get Extra!</h3>
+                            <h6>We are now offering some good discount
+                                on selected books go and shop them</h6>
+                            <a href="products.html" class="btn blue-btn">view all books</a>
+                            <span class="icon-point amount"><img src="images/amount.png" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonial-sec">
+            <div class="container">
+                <div id="testimonal" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's printer took a galley of type and Scrambled it to make a type and typesetting
+                            industry. been the book</h3>
+                        <div class="box-user">
+                            <h4 class="author">Susane Mathew</h4>
+                            <span class="country">Australia</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's printer took a galley of type and Scrambled it to make a type and typesetting
+                            industry. been the book</h3>
+                        <div class="box-user">
+                            <h4 class="author">Susane Mathew</h4>
+                            <span class="country">Australia</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's printer took a galley of type and Scrambled it to make a type and typesetting
+                            industry. been the book</h3>
+                        <div class="box-user">
+                            <h4 class="author">Susane Mathew</h4>
+                            <span class="country">Australia</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's printer took a galley of type and Scrambled it to make a type and typesetting
+                            industry. been the book</h3>
+                        <div class="box-user">
+                            <h4 class="author">Susane Mathew</h4>
+                            <span class="country">Australia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="left-quote">
+                <img src="images/left-quote.png" alt="quote">
+            </div>
+            <div class="right-quote">
+                <img src="images/right-quote.png" alt="quote">
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="address">
+                            <h4>Our Address</h4>
+                            <h6>The BookStore Theme, 4th Store
+                                Beside that building, USA</h6>
+                            <h6>Call : 800 1234 5678</h6>
+                            <h6>Email : info@bookstore.com</h6>
+                        </div>
+                        <div class="timing">
+                            <h4>Timing</h4>
+                            <h6>Mon - Fri: 7am - 10pm</h6>
+                            <h6>​​Saturday: 8am - 10pm</h6>
+                            <h6>​Sunday: 8am - 11pm</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="navigation">
+                            <h4>Navigation</h4>
+                            <ul>
+                                <li><a href="cv-xinviec.html">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="terms-conditions.html">Terms</a></li>
+                                <li><a href="products.html">Products</a></li>
+                            </ul>
+                        </div>
+                        <div class="navigation">
+                            <h4>Help</h4>
+                            <ul>
+                                <li><a href="">Shipping & Returns</a></li>
+                                <li><a href="privacy-policy.html">Privacy</a></li>
+                                <li><a href="faq.html">FAQ’s</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="form">
+                            <h3>Hãy để lại bình luận dưới đây</h3>
+                            <h6>Chúng tôi muốn biết bạn nghĩ gì để tăng khả năng phục vụ</h6>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" name="name" id="name" placeholder="Your name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" name="email" id="email" placeholder="email" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="text" name="messege" id="messege" placeholder="messege">
+                                </div>
+                                <div class="col-md-12">
+                                    <button class="btn black" onclick="addHtmlTableRow();">Alright, Submit</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5>10/7/2020</h5>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="share align-middle">
+                                <span class="fb"><i class="fa fa-facebook-official"></i></span>
+                                <span class="instagram"><i class="fa fa-instagram"></i></span>
+                                <span class="twitter"><i class="fa fa-twitter"></i></span>
+                                <span class="pinterest"><i class="fa fa-pinterest"></i></span>
+                                <span class="google"><i class="fa fa-google-plus"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="javascript/jquery.min.js"></script>
+    <script src="javascript/bootstrap.min.js"></script>
+    <script src="javascript/owl.carousel.min.js"></script>
+    <script src="javascript/custom.js"></script>
+    <script src="javascript/preloader.js"></script>
+    <script src="javascript/search.js"></script>
+    <script src="javascript/dongho.js"></script>
+    <script src="javascript/binhluan.js"></script>
+
+
+</body>
+
+</html>
