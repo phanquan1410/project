@@ -362,7 +362,7 @@ header .cart .quntity {
 }
 
 .recomended-sec .item {
-  border: 1px solid #d5d5d5;
+  border: 1px hidden #d5d5d5;
   padding: 36px 10px;
   cursor: pointer;
   position: relative;
