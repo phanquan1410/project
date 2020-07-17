@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Book Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#03a6f3">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3"><a href="#" class="web-url">www.readbook.com</a></div>
+                    <div class="col-md-6">
+                        <h5 style="text-align: center   ;">To day a leader, tomorrow a leader</h5>
+                    </div>
+                    <div class="col-md-3">
+
+                        <div id="clock">Loading...</div>
+
+                        <script type="text/javascript"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-menu">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="cv-xinviec.html"><img src="images/logo1.png" style="width: 255px;"
+                            alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="navbar-item">
+                                <a href="cv-xinviec.html" class="nav-link">Trang chủ</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="theloai.html" class="nav-link">Thể loại</a>
+                            </li>
+                            <li class="navbar-item active">
+                                <a href="about.html" class="nav-link">Thông tin trang</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="faq.html" class="nav-link">FAQ</a>
+                            </li>
+
+                        </ul>
+                        <!-- <form class="form-inline my-2 my-lg-0" > -->
+                        <input class="form-control mr-sm-2" style="width:20%" type="search" placeholder="Search here..."
+                            aria-label="Search">
+                        <span class="fa fa-search"></span>
+                        <!-- </form> -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    
+        <div id="thanhdinhvi">
+            <a href="#Romantic">Romantic</a>
+            <a href="#khampha">Khám phá</a>
+            <a href="#cuocsong">Cuộc sống</a>
+            <a href="#trinhtham">Trinh thám</a>
+        </div>
+    
+    <script>
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("thanhdinhvi").style.top = "0";
+            } else {
+                document.getElementById("thanhdinhvi").style.top = "-50px";
+            }
+        }
+    </script>
+    <style>
+        
+
+        #thanhdinhvi {
+            background-color: rgb(252, 186, 104);
+            position: fixed;
+            top: -50px;
+            width: 100%;
+            display: block;
+            transition: 0.3s;
+            z-index: 12;
+        }
+
+        #thanhdinhvi a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+            font-size: 17px;
+
+        }
+
+        #thanhdinhvi a:hover {
+            background-color: #ddd;
+            color: black;
+
+        }
+    </style>
+
+
+
+
+    <div class="breadcrumb">
+        <div class="container">
+            <a class="breadcrumb-item" href="cv-xinviec.html">Home</a>
+            <span class="breadcrumb-item active">Shop</span>
+        </div>
+    </div>
+    <section class="static about-sec">
+        <div class="container">
+            <p id="Romantic"> <br> </p>
+            <h2 style="text-align: center;">Romantic</h2>
+            <div class="recomended-sec">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item" style="overflow: hidden;">
+                            <img src="images/s3.jpg" width="135" height="218" alt="img">
+                            <h3>Điều bí mật</h3>
+                            <div class="noidung">
+                                <a href="#">Read Now</a></h6>
+                                <div>
+                                    <a href="product-single.html">
+                                        <h4 class="tooltip_content" aria-hidden="true">
+                                            Điều bí mật như một cuốn nhật kí ghi lại những suy tư có phần ngây ngô của
+                                            nhóm năm bạn học sinh cấp Ba – Kyou, Mikki, Para, Jika và Eru. Trong không
+                                            khí căng thẳng của những kì thi nối tiếp nhau và tâm trạng buồn vui lẫn lộn
+                                            khi sắp phải tạm biệt tuổi học trò, những cô cậu thiếu niên ấy vẫn tận hưởng
+                                            trọn vẹn từng khoảnh khắc
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item" style="overflow: hidden;">
+                            <img src="images/s4.jpg" width="135" height="218" alt="img">
+                            <h3>The vanishing act</h3>
+                            <div class="f-description ">
+                                <div class="noidung">
+                                    <a href="#">Read Now</a></h6>
+                                    <div>
+                                        <a href="sach1.html">
+                                            <h4 class="tooltip_content" aria-hidden="true">
+                                                Delia Hopkins đã lãnh đạo một
+                                                quyến rũ cuộc sống. Lớn lên ở vùng nông thôn New Hampshire bởi người cha
+                                                góa của cô,
+                                                Andrew, hiện cô có một cô con gái nhỏ, một vị hôn phu đẹp trai và một cô
+                                                con gái riêng.
+                                                chó săn tìm kiếm và cứu hộ, mà cô dùng để tìm người mất tích.
+                                                Nhưng khi Delia lên kế hoạch cho đám cưới của mình ...
+                                            </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item" style="overflow: hidden;">
+                            <img src="images/s5.jpg" width="135" height="218" alt="img">
+                            <h3>Yêu trên từng ngón tay</h3>
+                            <div class="f-description ">
+                                <div class="noidung">
+
+                                    <a href="#">Read Now</a></h6>
+                                    <div>
+                                        <a href="sach2.html">
+                                            <h4 class="tooltip_content" aria-hidden="true"> Yêu trên từng ngón tay là
+                                                tuyển tập gồm 11 truyện ngắn về tình yêu, hôn nhân, gia đình, truyện nào
+                                                cũng mở ra từ những nhức nhối, những dẳn vặt, những nỗi đau… nhưng kết
+                                                thúc mỗi truyện luôn là niềm tin và hy vọng. Phương thuốc thần Trần Trà
+                                                My kê cho nhân vật của mình luôn là tình thân và tình yêu. Có tình yêu
+                                                con người ta biết tha thứ, biết hy sinh, biết chấp nhận để vun đắp, để
+                                                dựng xây…
+                                            </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item" style="overflow: hidden;">
+                            <img src="images/s6.jpg" width="135" height="218" alt="img">
+                            <h3 style="font-weight: 400;">fire and stars</h3>
+                            <div class="f-description ">
+                                <div class="noidung">
+                                    <a href="#">Read Now</a></h6>
+                                    <div>
+                                        <a href="sach3.html">
+
+                                            <h4 class="tooltip_content" aria-hidden="true"> Ch&agrave;ng thanh
+                                                ni&ecirc;n vừa c&oacute; được
+                                                danh
+                                                hiệu người đ&agrave;n &ocirc;ng mạnh nhất h&agrave;nh tinh, đang
+                                                h&iacute;
+                                                hửng
+                                                v&igrave; sắp được cưới con g&aacute;i của chủ hội... Thế nhưng anh ta
+                                                n&agrave;o c&oacute; ngờ được rằng bản th&acirc;n lại &quot;được&quot;
+                                                săn
+                                                đ&oacute;n bởi v&ocirc; số quốc gia với vai tr&ograve; &quot;m&aacute;y
+                                                phối
+                                                giống&quot; trong c&ocirc;ng cuộc sinh sản c&oacute; chọn lọc c...
+                                            </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top: 60px;" class="btn-sec">
+                    <button class="btn gray-btn">load More books</button>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <hr width="100%" align="center" size="20px" />
+                <p id="khampha"> <br> </p>
+                <h2 style="text-align: center;margin-top: 40px;">Khám phá</h2>
+                <div class="recomended-sec">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="item" style="overflow: hidden;">
+                                <img src="images/a1.jpg" width="135" height="218" alt="img">
+                                <h3 style="font-weight: 400;">Lấp Lánh</h3>
+                                <div class="f-description ">
+                                    <div class="noidung">
+                                        <a href="#">Read Now</a></h6>
+                                        <div>
+                                            <a href="sach1.html">
+
+                                                <h4 class="tooltip_content" aria-hidden="true"> Lấp Lánh bắt mắt với cái
+                                                    bìa màu xanh và những con rối cầu nắng treo lơ lửng. Hình ảnh ấy của
+                                                    cuốn
+                                                    sách
+                                                    sẽ gợi cho người đọc về một câu chuyện tươi mới và rực rỡ như ánh
+                                                    sáng của
+                                                    vầng
+                                                    thái dương. Nhưng không, Lấp Lánh day dứt, Lấp Lánh quanh quẩn, Lấp
+                                                    Lánh bế
+                                                    tắc
+                                                    với những con người vùng vẫy tìm cho mình một lối thoát khi cuộc
+                                                    sống, cảm
+                                                    xúc
+                                                    bị dồn nén...
+                                                </h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="item" style="overflow: hidden;">
+                                <img src="images/a2.jpg" width="135" height="218" alt="img">
+                                <h3 style="font-weight: 400;">Đằng Sau Bức Tranh</h3>
+                                <div class="f-description ">
+                                    <div class="noidung">
+                                        <a href="#">Read Now</a></h6>
+                                        <div>
+                                            <a href="sach5.html">
+
+                                                <h4 class="tooltip_content" aria-hidden="true">Đằng Sau Bức Tranh là
+                                                    cuốn tiểu thuyết kinh điển đã ăn sâu vào trái tim của biết bao thế
+                                                    hệ bạn
+                                                    đọc
+                                                    Thái Lan. Đó là câu chuyện tình đẹp nhất và thuần khiết nhất giữa
+                                                    công nương
+                                                    Kirati và chàng trai trẻ Nopporn. Bi kịch tình yêu giữa Nopporn và
+                                                    Kirati
+                                                    bắt
+                                                    nguồn từ sự khác biệt tuổi tác, từ mối quan hệ giữa một chàng sinh
+                                                    viên Thái
+                                                    Lan
+                                                    sang Nhật Bản du học và một phụ nữ xinh đẹp đã có chồng...
+                                                </h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="item" style="overflow: hidden;">
+                                <img src="images/a3.jpg" width="135" height="218" alt="img">
+                                <h3 style="font-weight: 400;">The Secret Tree</h3>
+                                <div class="f-description ">
+                                    <div class="noidung">
+                                        <a href="#">Read Now</a></h6>
+                                        <div>
+                                            <a href="sach6.html">
+
+                                                <h4 class="tooltip_content" aria-hidden="true"> Một câu chuyện ngọt ngào
+                                                    của một cái cây
+                                                    nghĩa đen chứa đầy bí mật.
+
+                                                    Bí mật của bạn là gì? <br>
+
+                                                    Khu phố của Minty đầy bí ẩn. Có Ngôi nhà phù thủy, một ngôi nhà cũ
+                                                    ma quái
+                                                    trang trại ở phía bên kia.
+                                                </h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="item" style="overflow: hidden;">
+                                <img src="images/r4.jpg" width="135" height="218" alt="img">
+                                <h3 style="font-weight: 400;">PS From Paris</h3>
+                                <div class="f-description ">
+                                    <div class="noidung">
+                                        <a href="#">Read Now</a></h6>
+                                        <div>
+                                            <a href="sach7.html">
+
+                                                <h4 class="tooltip_content" aria-hidden="true">Trên màn ảnh rộng, Mia
+                                                    vào vai một người phụ nữ đang yêu. Nhưng trong đời thực, cô ấy là
+                                                    một nữ
+                                                    diễn
+                                                    viên cần nghỉ ngơi từ người chồng hiền lành ngoài đời thực của cô ấy
+                                                    là siêu
+                                                    nhân, người đóng vai cô ấy thích sự lãng mạn trong các bộ phim. Vì
+                                                    vậy, cô
+                                                    đi
+                                                    qua Kênh tiếng Anh để trốn ở Paris đằng kia...
+                                                </h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="btn-sec">
+                        <button class="btn gray-btn">load More books</button>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <hr width="100%" align="center" size="20px" />
+                    <p id="cuocsong"> <br> </p>
+                    <h2 style="text-align: center;margin-top: 40px;">Cuộc sống</h2>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="item" style="overflow: hidden;">
+                                <img src="images/a7.jpg" width="135" height="218" alt="img">
+                                <h3 style="font-weight: 400;">Hôm Nay Tôi Thất Tình</h3>
+                                <div class="f-description ">
+                                    <div class="noidung">
+                                        <a href="#">Read Now</a></h6>
+                                        <div>
+                                            <a href="sach10.html">
+
+                                                <h4 class="tooltip_content" aria-hidden="true">Cảm hứng chưa có, đừng
+                                                    chờ, cứ làm đi, rồi cảm hứng sẽ tự đến. Và khi hành động với cảm
+                                                    hứng thì
+                                                    bạn có
+                                                    hạnh phúc Cảm hứng chưa có, đừng
+                                                    chờ, cứ làm đi, rồi cảm hứng sẽ tự đến. Và khi hành động với cảm
+                                                    hứng thì
+                                                    bạn có
+                                                    hạnh phúc
+
+                                                    Nếu dùng con tim làm đòn bẩy thì dù năng lượng s9o61ng tác động lên
+                                                    nó rất
+                                                    nhỏ,
+                                                    ...
+                                                </h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="item" style="overflow: hidden;">
+                                <img src="images/a8.jpg" width="135" height="218" alt="img">
+                                <h3 style="font-weight: 400;">Thời Gian Tươi Đẹp</h3>
+                                <div class="f-description ">
+                                    <div class="noidung">
+                                        <a href="#">Read Now</a></h6>
+                                        <div>
+                                            <a href="sach11.html">
+
+                                                <h4 class="tooltip_content" aria-hidden="true"> Thời Gian Tươi Đẹp Cảm
+                                                    hứng chưa
+                                                    có, đừng
+                                                    chờ, cứ làm đi, rồi cảm hứng sẽ tự đến. Và khi hành động với cảm
+                                                    hứng thì
+                                                    bạn có
+                                                    hạnh phúc Cảm hứng chưa có, đừng
+                                                    chờ, cứ làm đi, rồi cảm hứng sẽ tự đến. Và khi hành động với cảm
+                                                    hứng thì
+                                                    bạn có
+                                                    hạnh phúc
+
+                                                    Nếu dùng con tim làm đòn bẩy thì dù năng lượng s9o61ng tác động lên
+                                                    nó rất
+                                                    nhỏ,
+                                                    ...
+                                                </h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="item" style="overflow: hidden;">
+                                <img src="images/a9.jpg" width="135" height="218" alt="img">
+                                <h3 style="font-weight: 400;">Đừng Lãng Phí Những Ngày Đẹp Trời</h3>
+                                <div class="f-description ">
+                                    <div class="noidung">
+                                        <a href="#">Read Now</a></h6>
+                                        <div>
+                                            <a href="sach12.html">
+
+                                                <h4 class="tooltip_content" aria-hidden="true"> “Có những ngày dài thật
+                                                    buồn, bó
+                                                    gối trong căn phòng nhỏ, nhìn ra bầu trời cao rộng ngoài kia, tôi
+                                                    luôn mang
+                                                    trong mình suy nghĩ bầu trời ấy không có chỗ dành cho tôi. Tôi luôn
+                                                    tự hỏi
+                                                    “Mình muốn làm gì?”, “Mình phải làm gì?”, “Mình cố gắng vì điều
+                                                    gì?”,…”
+
+                                                    Chúng ta, ai cũng từng trải qua những ngày như thế. Đó là quãng thời
+                                                    gian ta
+                                                    cứ quẩn quanh đây đó tìm kiếm câu trả lời mình là ai, mình thực sự
+                                                    muốn gì.
+                                                    Giữa những chông chênh của tuổi trẻ, khi đứng giữa quá nhiều ngã rẽ,
+                                                    chúng
+                                                    ta bắt buộc phải đưa ra một sự lựa chọn cho riêng mình. Con đường
+                                                    nào cũng
+                                                    hấp dẫn, cũng mời gọi, nhưng cũng đầy thử thách và chông gai.
+                                                </h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="item" style="overflow: hidden;">
+                                <img src="images/a6.jpg" width="135" height="218" alt="img">
+                                <h3 style="font-weight: 400;">Đắc Nhân Tâm</h3>
+                                <div class="f-description ">
+                                    <div class="noidung">
+                                        <a href="#">Read Now</a></h6>
+                                        <div>
+                                            <a href="sach13.html">
+
+                                                <h4 class="tooltip_content" aria-hidden="true"> Đắc nhân tâm của Dale
+                                                    Carnegie
+                                                    là quyển sách duy nhất về thể loại self-help liên tục đứng đầu danh
+                                                    mục sách
+                                                    bán chạy nhất (best-selling Books) do báo The New York Times bình
+                                                    chọn suốt
+                                                    10 năm liền. Được xuất bản năm 1936, với số lượng bán ra hơn 15
+                                                    triệu bản,
+                                                    tính đến nay, sách đã được dịch ra ở hầu hết các ngôn ngữ, trong đó
+                                                    có cả
+                                                    Việt Nam, và đã nhận được sự đón tiếp nhiệt tình của đọc giả ở hầu
+                                                    hết các
+                                                    quốc gia.
+                                                    ...
+                                                </h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="btn-sec">
+                        <button class="btn gray-btn">load More books</button>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <hr width="100%" align="center" size="20px" />
+                    <p id="trinhtham"> <br> </p>
+                    <h2 style="text-align: center;margin-top: 40px;">Trinh thám</h2>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="item" style="overflow: hidden;">
+                                <img src="images/a6.jpg" width="135" height="218" alt="img">
+                                <h3 style="font-weight: 400;">Đắc Nhân Tâm</h3>
+                                <div class="f-description ">
+                                    <div class="noidung">
+                                        <a href="#">Read Now</a></h6>
+                                        <div>
+                                            <a href="sach13.html">
+
+                                                <h4 class="tooltip_content" aria-hidden="true"> Đắc nhân tâm của Dale
+                                                    Carnegie
+                                                    là quyển sách duy nhất về thể loại self-help liên tục đứng đầu danh
+                                                    mục sách
+                                                    bán chạy nhất (best-selling Books) do báo The New York Times bình
+                                                    chọn suốt
+                                                    10 năm liền. Được xuất bản năm 1936, với số lượng bán ra hơn 15
+                                                    triệu bản,
+                                                    tính đến nay, sách đã được dịch ra ở hầu hết các ngôn ngữ, trong đó
+                                                    có cả
+                                                    Việt Nam, và đã nhận được sự đón tiếp nhiệt tình của đọc giả ở hầu
+                                                    hết các
+                                                    quốc gia.
+                                                    ...
+                                                </h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="item" style="overflow: hidden;">
+                                <img src="images/r5.jpg" width="135" height="218" alt="img">
+                                <h3 style="font-weight: 400;">Đắc Nhân Tâm</h3>
+                                <div class="f-description ">
+                                    <div class="noidung">
+                                        <a href="#">Read Now</a></h6>
+                                        <div>
+                                            <a href="sach14.html">
+
+                                                <h4 class="tooltip_content" aria-hidden="true"> Đắc nhân tâm của Dale
+                                                    Carnegie
+                                                    là quyển sách duy nhất về thể loại self-help liên tục đứng đầu danh
+                                                    mục sách
+                                                    bán chạy nhất (best-selling Books) do báo The New York Times bình
+                                                    chọn suốt
+                                                    10 năm liền. Được xuất bản năm 1936, với số lượng bán ra hơn 15
+                                                    triệu bản,
+                                                    tính đến nay, sách đã được dịch ra ở hầu hết các ngôn ngữ, trong đó
+                                                    có cả
+                                                    Việt Nam, và đã nhận được sự đón tiếp nhiệt tình của đọc giả ở hầu
+                                                    hết các
+                                                    quốc gia.
+                                                    ...
+                                                </h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="item" style="overflow: hidden;">
+                                <img src="images/t1.jpg" width="135" height="218" alt="img">
+                                <h3 style="font-weight: 400;">Kẻ đào tẩu</h3>
+                                <div class="f-description ">
+                                    <div class="noidung">
+                                        <a href="#">Read Now</a></h6>
+                                        <div>
+                                            <a href="sach14.html">
+
+                                                <h4 class="tooltip_content" aria-hidden="true"> Khi được đề nghị nhận
+                                                    trước
+                                                    500.000 đô la để bào chữa cho Charlie Marsh, nữ luật sư xinh đẹp
+                                                    Amanda
+                                                    Jaffe không thể từ chối. Marsh, vốn phải chạy trốn khỏi Mỹ sau khi
+                                                    bị buộc
+                                                    tội sát hại hạ nghị sĩ Arnold Pope, giờ đây buộc phải quay về Mỹ khi
+                                                    bị tên
+                                                    độc tài Jean-Claude Baptise truy sát vì đã dám ngủ với người vợ
+                                                    quyến rũ của
+                                                    hắn. Liệu sự thông minh của Amanda có giúp Marsh thoát khỏi mức án
+                                                    tử hình,
+                                                    ông bố khát máu của Arnold Pope hay sát thủ của Baptiste và bao ân
+                                                    oán cũ?
+                                                    ...
+                                                </h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="item" style="overflow: hidden;">
+                                <img src="images/t2.jpg" width="135" height="218" alt="img">
+                                <h3 style="font-weight: 400;">Sherlock Home</h3>
+                                <div class="f-description ">
+                                    <div class="noidung">
+                                        <a href="#">Read Now</a></h6>
+                                        <div>
+                                            <a href="sach14.html">
+
+                                                <h4 class="tooltip_content" aria-hidden="true"> Sherlock Holmes là tiểu
+                                                    thuyết
+                                                    của Sir Arthur Conan Doyle lần đầu xuất hiện vào năm 1887 trong cuốn
+                                                    tiểu
+                                                    thuyết trinh thám “A Study in Scarlet”. Từ đó, nhà văn Anh đã viết 4
+                                                    tiểu
+                                                    thuyết và 55 truyện ngắn về Holmes. Qua hàng thế kỷ, vị thám tử đã
+                                                    trở thành
+                                                    một biểu tượng văn hóa và là nguồn cảm hứng của rất nhiều cây bút
+                                                    khác. Cuốn
+                                                    “Mary Russell” nổi tiếng của Laurie King từng tái hiện cuộc sống của
+                                                    Holmes
+                                                    sau khi “về hưu”.
+                                                    ...
+                                                </h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="btn-sec">
+                        <button class="btn gray-btn">load More books</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="address">
+                        <h4>Our Address</h4>
+                        <h6>Việt Nam</h6>
+                        <h6>Call : 800 1234 5678</h6>
+                        <h6>Email : readbook@books.com</h6>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="navigation">
+                        <h4>Help</h4>
+                        <ul>
+
+                            <li><a href="privacy-policy.html">Privacy</a></li>
+                            <li><a href="faq.html">FAQ’s</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="form">
+                        <h3>Quick Contact us</h3>
+                        <h6>We are now offering some good discount
+                            on selected books go and shop them</h6>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input placeholder="Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" placeholder="Email" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea placeholder="Messege"></textarea>
+                                </div>
+                                <div class="col-md-12">
+                                    <button class="btn black">Alright, Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>(C) 2017. All Rights Reserved. BookStore Wordpress Theme</h5>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="share align-middle">
+                            <span class="fb"><i class="fa fa-facebook-official"></i></span>
+                            <span class="instagram"><i class="fa fa-instagram"></i></span>
+                            <span class="twitter"><i class="fa fa-twitter"></i></span>
+                            <span class="pinterest"><i class="fa fa-pinterest"></i></span>
+                            <span class="google"><i class="fa fa-google-plus"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="javascript/jquery.min.js"></script>
+    <script src="javascript/bootstrap.min.js"></script>
+    <script type="text/javascript" src="javascript/owl.carousel.min.js"></script>
+    <script src="javascript/custom.js"></script>
+    <script src="javascript/dongho.js"></script>
+</body>
+
+</html>
