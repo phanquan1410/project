@@ -34,7 +34,8 @@
         <div class="main-menu">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="cv-xinviec.html"><img src="images/logo1.png" style="width: 255px;" alt="logo"></a>
+                    <a class="navbar-brand" href="cv-xinviec.html"><img src="images/logo1.png" style="width: 255px;"
+                            alt="logo"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -56,16 +57,72 @@
                             </li>
 
                         </ul>
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search here..."
-                                aria-label="Search">
-                            <span class="fa fa-search"></span>
-                        </form>
+                        <!-- <form class="form-inline my-2 my-lg-0" > -->
+                        <input class="form-control mr-sm-2" style="width:20%" type="search" placeholder="Search here..."
+                            aria-label="Search">
+                        <span class="fa fa-search"></span>
+                        <!-- </form> -->
                     </div>
                 </nav>
             </div>
         </div>
     </header>
+
+    
+        <div id="thanhdinhvi">
+            <a href="#Romantic">Romantic</a>
+            <a href="#khampha">Khám phá</a>
+            <a href="#cuocsong">Cuộc sống</a>
+            <a href="#trinhtham">Trinh thám</a>
+        </div>
+    
+    <script>
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("thanhdinhvi").style.top = "0";
+            } else {
+                document.getElementById("thanhdinhvi").style.top = "-50px";
+            }
+        }
+    </script>
+    <style>
+        
+
+        #thanhdinhvi {
+            background-color: rgb(252, 186, 104);
+            position: fixed;
+            top: -50px;
+            width: 100%;
+            display: block;
+            transition: 0.3s;
+            z-index: 12;
+        }
+
+        #thanhdinhvi a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+            font-size: 17px;
+
+        }
+
+        #thanhdinhvi a:hover {
+            background-color: #ddd;
+            color: black;
+
+        }
+    </style>
+
+
+
+
     <div class="breadcrumb">
         <div class="container">
             <a class="breadcrumb-item" href="cv-xinviec.html">Home</a>
@@ -74,6 +131,7 @@
     </div>
     <section class="static about-sec">
         <div class="container">
+            <p id="Romantic"> <br> </p>
             <h2 style="text-align: center;">Romantic</h2>
             <div class="recomended-sec">
                 <div class="row">
@@ -187,7 +245,8 @@
                 <br>
                 <br>
                 <hr width="100%" align="center" size="20px" />
-                <h2 style="text-align: center;margin-top: 40px;">Trinh thám</h2>
+                <p id="khampha"> <br> </p>
+                <h2 style="text-align: center;margin-top: 40px;">Khám phá</h2>
                 <div class="recomended-sec">
                     <div class="row">
                         <div class="col-lg-3 col-md-6">
@@ -316,6 +375,7 @@
                     <br>
                     <br>
                     <hr width="100%" align="center" size="20px" />
+                    <p id="cuocsong"> <br> </p>
                     <h2 style="text-align: center;margin-top: 40px;">Cuộc sống</h2>
                     <div class="row">
                         <div class="col-lg-3 col-md-6">
@@ -327,16 +387,19 @@
                                         <a href="#">Read Now</a></h6>
                                         <div>
                                             <a href="sach10.html">
-        
+
                                                 <h4 class="tooltip_content" aria-hidden="true">Cảm hứng chưa có, đừng
-                                                    chờ, cứ làm đi, rồi cảm hứng sẽ tự đến. Và khi hành động với cảm hứng thì
+                                                    chờ, cứ làm đi, rồi cảm hứng sẽ tự đến. Và khi hành động với cảm
+                                                    hứng thì
                                                     bạn có
                                                     hạnh phúc Cảm hứng chưa có, đừng
-                                                    chờ, cứ làm đi, rồi cảm hứng sẽ tự đến. Và khi hành động với cảm hứng thì
+                                                    chờ, cứ làm đi, rồi cảm hứng sẽ tự đến. Và khi hành động với cảm
+                                                    hứng thì
                                                     bạn có
                                                     hạnh phúc
-        
-                                                    Nếu dùng con tim làm đòn bẩy thì dù năng lượng s9o61ng tác động lên nó rất
+
+                                                    Nếu dùng con tim làm đòn bẩy thì dù năng lượng s9o61ng tác động lên
+                                                    nó rất
                                                     nhỏ,
                                                     ...
                                                 </h4>
@@ -355,17 +418,21 @@
                                         <a href="#">Read Now</a></h6>
                                         <div>
                                             <a href="sach11.html">
-        
-                                                <h4 class="tooltip_content" aria-hidden="true"> Thời Gian Tươi Đẹp Cảm hứng chưa
+
+                                                <h4 class="tooltip_content" aria-hidden="true"> Thời Gian Tươi Đẹp Cảm
+                                                    hứng chưa
                                                     có, đừng
-                                                    chờ, cứ làm đi, rồi cảm hứng sẽ tự đến. Và khi hành động với cảm hứng thì
+                                                    chờ, cứ làm đi, rồi cảm hứng sẽ tự đến. Và khi hành động với cảm
+                                                    hứng thì
                                                     bạn có
                                                     hạnh phúc Cảm hứng chưa có, đừng
-                                                    chờ, cứ làm đi, rồi cảm hứng sẽ tự đến. Và khi hành động với cảm hứng thì
+                                                    chờ, cứ làm đi, rồi cảm hứng sẽ tự đến. Và khi hành động với cảm
+                                                    hứng thì
                                                     bạn có
                                                     hạnh phúc
-        
-                                                    Nếu dùng con tim làm đòn bẩy thì dù năng lượng s9o61ng tác động lên nó rất
+
+                                                    Nếu dùng con tim làm đòn bẩy thì dù năng lượng s9o61ng tác động lên
+                                                    nó rất
                                                     nhỏ,
                                                     ...
                                                 </h4>
@@ -384,16 +451,24 @@
                                         <a href="#">Read Now</a></h6>
                                         <div>
                                             <a href="sach12.html">
-        
-                                                <h4 class="tooltip_content" aria-hidden="true"> “Có những ngày dài thật buồn, bó
-                                                    gối trong căn phòng nhỏ, nhìn ra bầu trời cao rộng ngoài kia, tôi luôn mang
-                                                    trong mình suy nghĩ bầu trời ấy không có chỗ dành cho tôi. Tôi luôn tự hỏi
-                                                    “Mình muốn làm gì?”, “Mình phải làm gì?”, “Mình cố gắng vì điều gì?”,…”
-        
-                                                    Chúng ta, ai cũng từng trải qua những ngày như thế. Đó là quãng thời gian ta
-                                                    cứ quẩn quanh đây đó tìm kiếm câu trả lời mình là ai, mình thực sự muốn gì.
-                                                    Giữa những chông chênh của tuổi trẻ, khi đứng giữa quá nhiều ngã rẽ, chúng
-                                                    ta bắt buộc phải đưa ra một sự lựa chọn cho riêng mình. Con đường nào cũng
+
+                                                <h4 class="tooltip_content" aria-hidden="true"> “Có những ngày dài thật
+                                                    buồn, bó
+                                                    gối trong căn phòng nhỏ, nhìn ra bầu trời cao rộng ngoài kia, tôi
+                                                    luôn mang
+                                                    trong mình suy nghĩ bầu trời ấy không có chỗ dành cho tôi. Tôi luôn
+                                                    tự hỏi
+                                                    “Mình muốn làm gì?”, “Mình phải làm gì?”, “Mình cố gắng vì điều
+                                                    gì?”,…”
+
+                                                    Chúng ta, ai cũng từng trải qua những ngày như thế. Đó là quãng thời
+                                                    gian ta
+                                                    cứ quẩn quanh đây đó tìm kiếm câu trả lời mình là ai, mình thực sự
+                                                    muốn gì.
+                                                    Giữa những chông chênh của tuổi trẻ, khi đứng giữa quá nhiều ngã rẽ,
+                                                    chúng
+                                                    ta bắt buộc phải đưa ra một sự lựa chọn cho riêng mình. Con đường
+                                                    nào cũng
                                                     hấp dẫn, cũng mời gọi, nhưng cũng đầy thử thách và chông gai.
                                                 </h4>
                                             </a>
@@ -411,13 +486,19 @@
                                         <a href="#">Read Now</a></h6>
                                         <div>
                                             <a href="sach13.html">
-        
-                                                <h4 class="tooltip_content" aria-hidden="true"> Đắc nhân tâm của Dale Carnegie
-                                                    là quyển sách duy nhất về thể loại self-help liên tục đứng đầu danh mục sách
-                                                    bán chạy nhất (best-selling Books) do báo The New York Times bình chọn suốt
-                                                    10 năm liền. Được xuất bản năm 1936, với số lượng bán ra hơn 15 triệu bản,
-                                                    tính đến nay, sách đã được dịch ra ở hầu hết các ngôn ngữ, trong đó có cả
-                                                    Việt Nam, và đã nhận được sự đón tiếp nhiệt tình của đọc giả ở hầu hết các
+
+                                                <h4 class="tooltip_content" aria-hidden="true"> Đắc nhân tâm của Dale
+                                                    Carnegie
+                                                    là quyển sách duy nhất về thể loại self-help liên tục đứng đầu danh
+                                                    mục sách
+                                                    bán chạy nhất (best-selling Books) do báo The New York Times bình
+                                                    chọn suốt
+                                                    10 năm liền. Được xuất bản năm 1936, với số lượng bán ra hơn 15
+                                                    triệu bản,
+                                                    tính đến nay, sách đã được dịch ra ở hầu hết các ngôn ngữ, trong đó
+                                                    có cả
+                                                    Việt Nam, và đã nhận được sự đón tiếp nhiệt tình của đọc giả ở hầu
+                                                    hết các
                                                     quốc gia.
                                                     ...
                                                 </h4>
@@ -426,7 +507,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>                      
+                        </div>
                     </div>
                     <br>
                     <div class="btn-sec">
@@ -439,7 +520,8 @@
                     <br>
                     <br>
                     <hr width="100%" align="center" size="20px" />
-                    <h2 style="text-align: center;margin-top: 40px;">Khám Phá</h2>
+                    <p id="trinhtham"> <br> </p>
+                    <h2 style="text-align: center;margin-top: 40px;">Trinh thám</h2>
                     <div class="row">
                         <div class="col-lg-3 col-md-6">
                             <div class="item" style="overflow: hidden;">
@@ -450,13 +532,19 @@
                                         <a href="#">Read Now</a></h6>
                                         <div>
                                             <a href="sach13.html">
-        
-                                                <h4 class="tooltip_content" aria-hidden="true"> Đắc nhân tâm của Dale Carnegie
-                                                    là quyển sách duy nhất về thể loại self-help liên tục đứng đầu danh mục sách
-                                                    bán chạy nhất (best-selling Books) do báo The New York Times bình chọn suốt
-                                                    10 năm liền. Được xuất bản năm 1936, với số lượng bán ra hơn 15 triệu bản,
-                                                    tính đến nay, sách đã được dịch ra ở hầu hết các ngôn ngữ, trong đó có cả
-                                                    Việt Nam, và đã nhận được sự đón tiếp nhiệt tình của đọc giả ở hầu hết các
+
+                                                <h4 class="tooltip_content" aria-hidden="true"> Đắc nhân tâm của Dale
+                                                    Carnegie
+                                                    là quyển sách duy nhất về thể loại self-help liên tục đứng đầu danh
+                                                    mục sách
+                                                    bán chạy nhất (best-selling Books) do báo The New York Times bình
+                                                    chọn suốt
+                                                    10 năm liền. Được xuất bản năm 1936, với số lượng bán ra hơn 15
+                                                    triệu bản,
+                                                    tính đến nay, sách đã được dịch ra ở hầu hết các ngôn ngữ, trong đó
+                                                    có cả
+                                                    Việt Nam, và đã nhận được sự đón tiếp nhiệt tình của đọc giả ở hầu
+                                                    hết các
                                                     quốc gia.
                                                     ...
                                                 </h4>
@@ -475,13 +563,19 @@
                                         <a href="#">Read Now</a></h6>
                                         <div>
                                             <a href="sach14.html">
-        
-                                                <h4 class="tooltip_content" aria-hidden="true"> Đắc nhân tâm của Dale Carnegie
-                                                    là quyển sách duy nhất về thể loại self-help liên tục đứng đầu danh mục sách
-                                                    bán chạy nhất (best-selling Books) do báo The New York Times bình chọn suốt
-                                                    10 năm liền. Được xuất bản năm 1936, với số lượng bán ra hơn 15 triệu bản,
-                                                    tính đến nay, sách đã được dịch ra ở hầu hết các ngôn ngữ, trong đó có cả
-                                                    Việt Nam, và đã nhận được sự đón tiếp nhiệt tình của đọc giả ở hầu hết các
+
+                                                <h4 class="tooltip_content" aria-hidden="true"> Đắc nhân tâm của Dale
+                                                    Carnegie
+                                                    là quyển sách duy nhất về thể loại self-help liên tục đứng đầu danh
+                                                    mục sách
+                                                    bán chạy nhất (best-selling Books) do báo The New York Times bình
+                                                    chọn suốt
+                                                    10 năm liền. Được xuất bản năm 1936, với số lượng bán ra hơn 15
+                                                    triệu bản,
+                                                    tính đến nay, sách đã được dịch ra ở hầu hết các ngôn ngữ, trong đó
+                                                    có cả
+                                                    Việt Nam, và đã nhận được sự đón tiếp nhiệt tình của đọc giả ở hầu
+                                                    hết các
                                                     quốc gia.
                                                     ...
                                                 </h4>
@@ -500,14 +594,21 @@
                                         <a href="#">Read Now</a></h6>
                                         <div>
                                             <a href="sach14.html">
-        
-                                                <h4 class="tooltip_content" aria-hidden="true"> Khi được đề nghị nhận trước
-                                                    500.000 đô la để bào chữa cho Charlie Marsh, nữ luật sư xinh đẹp Amanda
-                                                    Jaffe không thể từ chối. Marsh, vốn phải chạy trốn khỏi Mỹ sau khi bị buộc
-                                                    tội sát hại hạ nghị sĩ Arnold Pope, giờ đây buộc phải quay về Mỹ khi bị tên
-                                                    độc tài Jean-Claude Baptise truy sát vì đã dám ngủ với người vợ quyến rũ của
-                                                    hắn. Liệu sự thông minh của Amanda có giúp Marsh thoát khỏi mức án tử hình,
-                                                    ông bố khát máu của Arnold Pope hay sát thủ của Baptiste và bao ân oán cũ?
+
+                                                <h4 class="tooltip_content" aria-hidden="true"> Khi được đề nghị nhận
+                                                    trước
+                                                    500.000 đô la để bào chữa cho Charlie Marsh, nữ luật sư xinh đẹp
+                                                    Amanda
+                                                    Jaffe không thể từ chối. Marsh, vốn phải chạy trốn khỏi Mỹ sau khi
+                                                    bị buộc
+                                                    tội sát hại hạ nghị sĩ Arnold Pope, giờ đây buộc phải quay về Mỹ khi
+                                                    bị tên
+                                                    độc tài Jean-Claude Baptise truy sát vì đã dám ngủ với người vợ
+                                                    quyến rũ của
+                                                    hắn. Liệu sự thông minh của Amanda có giúp Marsh thoát khỏi mức án
+                                                    tử hình,
+                                                    ông bố khát máu của Arnold Pope hay sát thủ của Baptiste và bao ân
+                                                    oán cũ?
                                                     ...
                                                 </h4>
                                             </a>
@@ -525,13 +626,19 @@
                                         <a href="#">Read Now</a></h6>
                                         <div>
                                             <a href="sach14.html">
-        
-                                                <h4 class="tooltip_content" aria-hidden="true"> Sherlock Holmes là tiểu thuyết
-                                                    của Sir Arthur Conan Doyle lần đầu xuất hiện vào năm 1887 trong cuốn tiểu
-                                                    thuyết trinh thám “A Study in Scarlet”. Từ đó, nhà văn Anh đã viết 4 tiểu
-                                                    thuyết và 55 truyện ngắn về Holmes. Qua hàng thế kỷ, vị thám tử đã trở thành
-                                                    một biểu tượng văn hóa và là nguồn cảm hứng của rất nhiều cây bút khác. Cuốn
-                                                    “Mary Russell” nổi tiếng của Laurie King từng tái hiện cuộc sống của Holmes
+
+                                                <h4 class="tooltip_content" aria-hidden="true"> Sherlock Holmes là tiểu
+                                                    thuyết
+                                                    của Sir Arthur Conan Doyle lần đầu xuất hiện vào năm 1887 trong cuốn
+                                                    tiểu
+                                                    thuyết trinh thám “A Study in Scarlet”. Từ đó, nhà văn Anh đã viết 4
+                                                    tiểu
+                                                    thuyết và 55 truyện ngắn về Holmes. Qua hàng thế kỷ, vị thám tử đã
+                                                    trở thành
+                                                    một biểu tượng văn hóa và là nguồn cảm hứng của rất nhiều cây bút
+                                                    khác. Cuốn
+                                                    “Mary Russell” nổi tiếng của Laurie King từng tái hiện cuộc sống của
+                                                    Holmes
                                                     sau khi “về hưu”.
                                                     ...
                                                 </h4>
@@ -540,7 +647,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>                       
+                        </div>
                     </div>
                     <br>
                     <div class="btn-sec">
